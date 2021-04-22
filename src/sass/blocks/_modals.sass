@@ -11,6 +11,31 @@
     left: 50%
     transform: translate(-50%, -50%)
     width: 380px
-  height: 400px
-  padding: 38px 37px 40px 40px
-  background-color: #f2f2f2
+    min-height: 400px
+    padding: 38px 40px 40px 40px
+    background-color: #f2f2f2
+    &__close
+        position: absolute
+        top: 0
+        right: -40px
+        line-height: 41px
+        font-size: 41px
+        color: $main-color
+        cursor: pointer
+    &__subtitle
+        font-size: 18px
+        font-weight: 700
+        line-height: normal
+        text-align: center
+        color: #0d0d0d
+    &__descr
+        font-size: 14px
+        font-weight: 500
+        line-height: normal
+        text-align: center
+        color: #0d0d0d
+    &__mini
+        min-height: 140px
+
+#consult, #order, #thanks, .overlay
+    display: none
